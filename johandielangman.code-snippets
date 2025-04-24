@@ -1,0 +1,44 @@
+{
+	"File Banner": {
+		"scope": "python,r",
+		"prefix": "banner",
+		"body": [
+			"# ~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~",
+			"#      /\\_/\\",
+			"#     ( o.o )",
+			"#      > ^ <",
+			"#",
+			"# Author: Johan Hanekom",
+			"# Date: $CURRENT_MONTH_NAME $CURRENT_YEAR",
+			"#",
+			"# ~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~",
+			"",
+			"$1"
+		],
+		"description": "Banner for top of file"
+	},
+	"Comment Header": {
+		"scope": "python,r",
+		"prefix": "header",
+		"body": [
+			"# =============== // $1 // ==============="
+		],
+		"description": "A comment header"
+	},
+	"Comment Standard": {
+		"scope": "python",
+		"prefix": "header_choice",
+		"body": [
+			"# =============== // ${1|STANDARD IMPORT,MODULE IMPORT,LIBRARY IMPORT|} // ==============="
+		],
+		"description": "A comment header"
+	},
+	"Comment Step": {
+		"scope": "python,shell,bash",
+		"prefix": "step",
+		"body": [
+			"# ====> $1"
+		],
+		"description": "A comment step"
+	}
+}
